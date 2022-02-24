@@ -10,11 +10,6 @@ class Rectangle {
         new Rectangle(new Point(0, 0), new Point(2, 1));
     }
 
-    void printRectangle() {
-        System.out.printf("\nThis rectangle has top left point (%d, %d) and bottom right point " +
-                "(%d, %d).\n", topLeft.x, topLeft.y, bottomRight.x, bottomRight.y);
-    }
-
     @Override
     public String toString() {
         return "This rectangle has top left point (" +
